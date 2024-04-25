@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function Pessoa(nome, idade, profissao, hobbye){
+            this.nome = nome;
+            this.idade = idade;
+            this.profissao = profissao;
+            this.hobbye = hobbye;
+            this.show = function(){
+                console.log(this.nome + " " + this.idade + " " + this.profissao + " " + this.hobbye)
+            }
+
+        }
+
+        var pessoa = new Pessoa("henrique", 21, "gamer", "trabalhar");
+
+        pessoa.show()
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function adicionar1(number){
+            var cont =+ 1;
+
+            if(number == 100){
+                return cont
+            } else {
+                number =+ 1;
+                adicionar1(number)
+            }
+        }
+
+        console.log(adicionar1(99));
+
+    </script>
+</body>
+</html>
